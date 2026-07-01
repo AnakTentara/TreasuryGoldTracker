@@ -10,7 +10,7 @@ async function startServer() {
   // Ensure database schema is initialized and migrated
   try {
     console.log('[SERVER] Ensuring database is initialized...');
-    execSync('node src/database/db_init.js', { stdio: 'inherit' });
+    execSync('node src/database/db_init.cjs', { stdio: 'inherit' });
   } catch (err) {
     console.error('[SERVER] Database initialization failed:', err);
   }
