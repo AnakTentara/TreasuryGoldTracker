@@ -1,0 +1,6 @@
+{
+  "name": "Treasury Gold Tracker",
+  "description": "Automated gold price tracker and real-time portfolio profit/loss alert system for treasury.id with SQLite persistent storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
